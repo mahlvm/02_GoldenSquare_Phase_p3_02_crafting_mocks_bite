@@ -13,8 +13,8 @@ class TaskFormatter:
         complete = self.task.complete
         
         if complete == True:
-            formated = f"-[x] {title}"
-			
+            formated = f"-[x] {title}"	
+        
         else:
             formated = f"-[ ] {title}"
 				
